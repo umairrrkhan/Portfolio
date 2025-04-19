@@ -22,8 +22,14 @@ const Projects = () => {
       description: "Constructed a predictive model for banking crises using machine learning techniques and economic data. Performed data preprocessing and feature engineering to enhance model performance. Visualized key trends and model predictions using Plotly Express to interpret results effectively.",
       skills: ["Python", "Scikit-Learn", "Pandas", "Plotly Express", "Machine Learning"],
       github: "https://github.com/umairrrkhan/African-Banking-Crisis-Prediction"
-    }
-  ];
+    },
+    {
+      title: "StudyGPT: AI-Powered Study Assistant",
+      description: "Developed a personalized AI study assistant that leverages GPT-based models to help students with note summarization, concept explanation, and question generation. Integrated Firebase for authentication and data storage, and deployed via Gradio for interactive use. Designed to improve productivity and learning efficiency for students in real-time.",
+      skills: ["Python", "OpenAI GPT", "Firebase", "Gradio", "Natural Language Processing", "Streamlit"],
+      github: "https://github.com/umairrrkhan/studygpt-allin-app"
+   }
+   ];
 
   return (
     <section id="projects" className="section">
